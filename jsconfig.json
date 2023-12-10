@@ -4,5 +4,17 @@
     "target": "ES2021",
     "checkJs": true,
     "allowJs": true
+
+  },
+
+
+  "engines": {
+    "node": ">=18.18.0 <19.0.0"
+  }, 
+  "name": "strapi",
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "jest"
   }
 }
+
